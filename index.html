@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksh Portfolio</title>
+     <link rel="icon" type="image/png" href="./assets/logo/py-logo.png" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Enhanced Background Effects for Visual Appeal -->
+    <div class="bg-effects">
+        <!-- Floating geometric shapes for depth -->
+        <div class="floating-shapes">
+            <!-- Individual animated shapes -->
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <!-- Gradient orbs for ambient lighting effect -->
+        <div class="gradient-orbs">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+        </div>
+    </div>
+
+    <!-- Splash Screen  -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <h1>welcome To My</h1>
+                <h2>Portfolio Website</h2>
+                <div class="shine-effect"></div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="splash-subtitle">Crafting Digital Experiences</p>
+        </div>
+    </div>
+
+    <!-- Mouse Smoke Effect  -->
+    <div id="smoke-container" class="smoke-container"></div>
+
+    <!-- Navbar  -->
+    <nav class="navbar glass-effect">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./assets/logo/py-logo.png" alt="" baground="transparent">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-underline"></div>
+        </div>
+    </nav>
+
+    <!-- Main Content  -->
+    <main class="main-content">
+        <!-- Home Section  -->
+        <section id="home" class="section home-section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-left animate-left">
+                        <div class="hero-badge">
+                            <span>👋 Hello , नमस्ते</span>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="title-line gradient-text">Creative</span>
+                            <span class="title-line gradient-text">Developer</span>
+                            <span class="title-accent">& Designer</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            "I craft digital experiences where clean code meets creative design, turning concepts into solutions that matter."
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <!-- <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years</span>
+                            </div> -->
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <button class="btn-primary neon-border">
+                                <i class="fas fa-rocket"></i>
+                                View My Work
+                            </button>
+                            <button class="btn-secondary neon-border">
+                                <i class="fas fa-download"></i>
+                                Download CV
+                            </button>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/pyakshcode" class="social-link" data-tooltip="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/akshay-modi-632158266/" class="social-link" data-tooltip="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/akshay__modi_/" class="social-link" data-tooltip="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://leetcode.com/u/PYAKSH_Codes/" class="social-link" data-tooltip="LeetCode">
+                                <i class="fas fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-right animate-right">
+                        <div class="hero-visual">
+                            <div class="hero-image glass-card">
+                                <img src="./assets/gif/gif1.gif"
+                                    alt="Developer Portrait" class="profile-img">
+                                <div class="image-overlay">
+                                    <div class="tech-icons">
+                                        <i class="fab fa-react"></i>
+                                        <i class="fab fa-node-js"></i>
+                                        <i class="fab fa-python"></i>
+                                        <i class="fab fa-js-square"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-element element-1">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="floating-element element-2">
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                                <div class="floating-element element-3">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <div class="floating-element element-4">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section  -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Get to know me</span>
+                    <h2 class="section-title gradient-text">About Me</h2>
+                    <p class="section-subtitle">Passionate about creating digital solutions that make a difference</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-left">
+                        <div class="about-image-container">
+                            <img src="./assets/images/akshay.jpg" alt="About Me" class="about-image">
+                            <div class="about-decoration">
+                                <div class="decoration-circle"></div>
+                                <div class="decoration-dots"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <div class="about-text glass-card neon-border">
+                            <h3>Akshay Modi — a Python Full Stack Developer passionate about blending code, creativity, and AI to build impactful solutions.</h3>
+                            <p>
+                               I’m a final-year B.Tech Computer Science student specializing in Artificial Intelligence. As a Python Full Stack Developer, I’ve honed skills across front-end and back-end technologies including HTML, CSS, JavaScript, SQL, and data libraries like Pandas and NumPy, along with foundational Machine Learning knowledge.
+                            </p>
+                            <p>
+                              I enjoy creating intelligent, efficient applications — from designing user-friendly interfaces to developing robust server-side logic and exploring AI-powered solutions.
+
+Driven by curiosity and continuous learning, I embrace new tools and technologies to craft projects that solve problems and make a meaningful difference.
+                            </p>
+                            <div class="about-actions">
+                                <button class="btn-primary neon-border download-cv">
+                                    <i class="fas fa-download"></i>
+                                    Download CV
+                                </button>
+                                <button class="btn-secondary neon-border">
+                                   <a id="call" href="tel:+916260613437">
+                                        <i class="fas fa-phone"></i>
+                                            Call
+                                    </a>
+                                    </button>
+                               
+                            </div>
+                        </div>
+                        <div class="skills-section">
+                            <h4>Technical Skills</h4>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h5>Frontend</h5>
+                                    <div class="skills">
+                                        <span class="skill-item">Html</span>
+                                        <span class="skill-item">Css</span>
+                                        <span class="skill-item">JavaScript</span>
+                                        <span class="skill-item">Next.js</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Backend</h5>
+                                    <div class="skills">
+                                        <span class="skill-item">Node.js</span>
+                                        <span class="skill-item">Python</span>
+                                        <span class="skill-item">MongoDB</span>
+                                        <span class="skill-item">PostgreSQL</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Tools</h5>
+                                    <div class="skills">
+                                        <span class="skill-item">Git</span>
+                                        <span class="skill-item">Docker</span>
+                                        <span class="skill-item">AWS</span>
+                                        <span class="skill-item">Figma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section  -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">My Work</span>
+                    <h2 class="section-title gradient-text">Featured Projects</h2>
+                    <p class="section-subtitle">A showcase of my best work and achievements</p>
+                </div>
+                <div class="projects-container">
+                    <div class="project-card glass-card neon-border" data-project="1">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=250&width=400" alt="E-Commerce Platform">
+                            <div class="project-overlay">
+                                <button class="btn-primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Live
+                                </button>
+                                <button class="btn-secondary">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3>E-Commerce Platform</h3>
+                                <button class="tech-stack-btn" data-target="tech-1">
+                                    <i class="fas fa-code"></i>
+                                    Tech Stack
+                                </button>
+                            </div>
+                            <p>A full-featured e-commerce platform with modern UI/UX, payment integration, and admin
+                                dashboard.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Stripe</span>
+                            </div>
+                        </div>
+                        <div class="tech-details" id="tech-1">
+                            <div class="tech-content">
+                                <h4>Technical Implementation</h4>
+                                <div class="tech-grid">
+                                    <div class="tech-item">
+                                        <i class="fab fa-react"></i>
+                                        <div>
+                                            <h5>Frontend</h5>
+                                            <p>React with Redux for state management, responsive design with CSS Grid
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fab fa-node-js"></i>
+                                        <div>
+                                            <h5>Backend</h5>
+                                            <p>Node.js with Express, JWT authentication, RESTful API design</p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-database"></i>
+                                        <div>
+                                            <h5>Database</h5>
+                                            <p>MongoDB with Mongoose ODM, optimized queries and indexing</p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-credit-card"></i>
+                                        <div>
+                                            <h5>Payment</h5>
+                                            <p>Stripe integration for secure payment processing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="certificates">
+                                    <h5>Certificates & Achievements</h5>
+                                    <div class="cert-list">
+                                        <div class="cert-item">
+                                            <i class="fas fa-certificate"></i>
+                                            <span>React Developer Certification</span>
+                                        </div>
+                                        <div class="cert-item">
+                                            <i class="fas fa-award"></i>
+                                            <span>Best UI/UX Design Award 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card neon-border" data-project="2">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=250&width=400" alt="Task Management App">
+                            <div class="project-overlay">
+                                <button class="btn-primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Live
+                                </button>
+                                <button class="btn-secondary">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3>Task Management App</h3>
+                                <button class="tech-stack-btn" data-target="tech-2">
+                                    <i class="fas fa-code"></i>
+                                    Tech Stack
+                                </button>
+                            </div>
+                            <p>Collaborative workspace with real-time updates, drag-and-drop functionality, and team
+                                management.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Socket.io</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                        </div>
+                        <div class="tech-details" id="tech-2">
+                            <div class="tech-content">
+                                <h4>Technical Implementation</h4>
+                                <div class="tech-grid">
+                                    <div class="tech-item">
+                                        <i class="fab fa-vuejs"></i>
+                                        <div>
+                                            <h5>Frontend</h5>
+                                            <p>Vue.js 3 with Composition API, Vuex for state management</p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-fire"></i>
+                                        <div>
+                                            <h5>Backend</h5>
+                                            <p>Firebase Functions, Firestore for real-time data sync</p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fas fa-sync-alt"></i>
+                                        <div>
+                                            <h5>Real-time</h5>
+                                            <p>Socket.io for instant updates and collaboration features</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="certificates">
+                                    <h5>Certificates & Achievements</h5>
+                                    <div class="cert-list">
+                                        <div class="cert-item">
+                                            <i class="fas fa-certificate"></i>
+                                            <span>Vue.js Expert Certification</span>
+                                        </div>
+                                        <div class="cert-item">
+                                            <i class="fas fa-trophy"></i>
+                                            <span>Innovation Award 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card neon-border" data-project="3">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=250&width=400" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <button class="btn-primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Live
+                                </button>
+                                <button class="btn-secondary">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-header">
+                                <h3>Portfolio Website</h3>
+                                <button class="tech-stack-btn" data-target="tech-3">
+                                    <i class="fas fa-code"></i>
+                                    Tech Stack
+                                </button>
+                            </div>
+                            <p>Responsive portfolio with modern animations, glassmorphism design, and interactive
+                                elements.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GSAP</span>
+                            </div>
+                        </div>
+                        <div class="tech-details" id="tech-3">
+                            <div class="tech-content">
+                                <h4>Technical Implementation</h4>
+                                <div class="tech-grid">
+                                    <div class="tech-item">
+                                        <i class="fab fa-html5"></i>
+                                        <div>
+                                            <h5>Structure</h5>
+                                            <p>Semantic HTML5 with accessibility best practices</p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fab fa-css3-alt"></i>
+                                        <div>
+                                            <h5>Styling</h5>
+                                            <p>Advanced CSS3 with glassmorphism, animations, and responsive design</p>
+                                        </div>
+                                    </div>
+                                    <div class="tech-item">
+                                        <i class="fab fa-js-square"></i>
+                                        <div>
+                                            <h5>Interactivity</h5>
+                                            <p>Vanilla JavaScript with modern ES6+ features and APIs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="certificates">
+                                    <h5>Certificates & Achievements</h5>
+                                    <div class="cert-list">
+                                        <div class="cert-item">
+                                            <i class="fas fa-certificate"></i>
+                                            <span>Web Design Certification</span>
+                                        </div>
+                                        <div class="cert-item">
+                                            <i class="fas fa-medal"></i>
+                                            <span>CSS Animation Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section  -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Let's Connect</span>
+                    <h2 class="section-title gradient-text">Get In Touch</h2>
+                    <p class="section-subtitle">Ready to start your next project? Let's create something amazing
+                        together!</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-left">
+                        <div class="contact-info">
+                            <div class="contact-item glass-card neon-border"  onclick="window.location.href='mailto:py.akshcode@gmail.com'">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>py.akshcode@gmail.com</p>
+                                    <span>I'll respond within 24 hours</span>
+                                </div>
+                            </div>
+                            <div class="contact-item glass-card neon-border" onclick="window.location.href='tel:+916260613437'">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Phone</h3>
+                                    <p>(+91) 6260613437</p>
+                                    <span>Available Mon-Fri, 9AM-6PM</span>
+                                </div>
+                            </div>
+                            <div class="contact-item glass-card neon-border" onclick="window.location.href='https:www.google.com/maps/place/Jaora,+Madhya+Pradesh+457226'">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Location</h3>
+                                    <p>Jaora (MP)</p>
+                                    <span>Open to remote work</span>
+                                </div>
+                            </div>
+
+                            <div class="social-section glass-card neon-border">
+                                <h3>Follow Me</h3>
+                                <p>Stay connected and follow my journey</p>
+                                <div class="social-links-large">
+                                    <a href="https://github.com/pyakshcode" class="social-link-large" data-tooltip="GitHub">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/akshay-modi-632158266/" class="social-link-large" data-tooltip="LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                        <span>LinkedIn</span>
+                                    </a>
+                                    <a href="https://www.instagram.com/akshay__modi_/" class="social-link-large" data-tooltip="Instagram">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a href="https://leetcode.com/u/PYAKSH_Codes/" class="social-link-large" data-tooltip="LeetCode">
+                                         <i class="fas fa-code"></i>
+                                        <span>LeetCode</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form class="contact-form glass-card neon-border">
+                            <div class="form-header">
+                                <h3>Send me a message</h3>
+                                <p>Let's discuss your project</p>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe"
+                                        class="form-input glass-effect" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com"
+                                        class="form-input glass-effect" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Discussion"
+                                    class="form-input glass-effect" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Tell me about your project..."
+                                    rows="6" class="form-input glass-effect" required></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn-primary neon-border">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Send Message
+                                </button>
+                                <button type="reset" class="btn-secondary">
+                                    <i class="fas fa-redo"></i>
+                                    Reset
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- 
+     Scroll to Top Button  -->
+    <button class="scroll-to-top glass-effect neon-border" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
